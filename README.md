@@ -1,1 +1,2 @@
-# state derived todo app in js
+# State derived todo app in javascript
+[live link](https://bingobook.vercel.app/)
