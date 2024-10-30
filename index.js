@@ -3,7 +3,7 @@ const bountyArea = document.querySelector(".bounty-area");
 let todos = [];
 
 function addTodo() {
-  todos.push({ title: document.querySelector("input").value });
+  todos.push({ title: document.querySelector("#todos").value });
 
   render();
 }
