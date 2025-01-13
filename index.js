@@ -59,13 +59,13 @@ document.querySelector(".bounty-area").addEventListener("click", function (e) {
     todos.splice(ids, 1);
     render();
   }
-});
 
-document.querySelector(".bounty-area").addEventListener("click", function (e) {
-  if (e.target.className === "delete") {
+  else if (e.target.className === "delete") {
     let parent = e.target.parentNode;
     let ids = parent.id;
     todos.splice(ids, 1);
     render();
   }
 });
+
+
